@@ -47,6 +47,8 @@ body {
   box-sizing: border-box;
 }
 
+
+
 img {
   max-width: 100%;
 }
@@ -167,9 +169,7 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
   background-size: 200%;
 }
 
@@ -180,9 +180,7 @@ p {
 
 /*===== All SECTION TITLE Style =====*/
 .section-title .line {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
   width: 150px;
   height: 5px;
   margin-bottom: 10px !important;
@@ -1114,7 +1112,9 @@ p {
       04.SERVICES css 
 ===========================*/
 .services-area {
-  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));;
+ padding-bottom: 100px;
+
 }
 
 .services-area-container {
@@ -1460,21 +1460,21 @@ p {
 }
 
 .counter-wrapper .single-counter.counter-color-1::before {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
+  background: -o-linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
 }
 
 .counter-wrapper .single-counter.counter-color-2::before {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
+  background: -o-linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
 }
 
 .counter-wrapper .single-counter.counter-color-3::before {
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
+  background: -o-linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
 }
 
 .counter-wrapper .single-counter .count {
@@ -1556,9 +1556,7 @@ p {
   z-index: -1;
   top: 0;
   left: 0;
-  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
-  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-out 0s;
