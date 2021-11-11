@@ -47,8 +47,6 @@ body {
   box-sizing: border-box;
 }
 
-
-
 img {
   max-width: 100%;
 }
@@ -89,7 +87,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  color: #2E2E2E;
+  color: white;
   margin: 0px;
 }
 
@@ -128,7 +126,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: white;
+  color: #6A6972;
   margin: 0px;
 }
 
@@ -169,7 +167,9 @@ p {
   -ms-transition: all 0.4s ease-out 0s;
   -o-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
+  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
   background-size: 200%;
 }
 
@@ -180,7 +180,9 @@ p {
 
 /*===== All SECTION TITLE Style =====*/
 .section-title .line {
-  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
+  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
   width: 150px;
   height: 5px;
   margin-bottom: 10px !important;
@@ -260,7 +262,7 @@ p {
   height: 100%;
   width: 100%;
   /* Change Background Color */
-  background: rgb(0, 0, 0);
+  background: #fff;
   z-index: 99999;
 }
 
@@ -632,7 +634,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background-color: #000;
+  background-color: black;
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
@@ -644,13 +646,12 @@ p {
 }
 
 .sticky .navbar {
-  background-color: black;
+  padding: 10px 0;
 }
 
 .navbar {
   padding: 25px 0;
   border-radius: 5px;
-
   position: relative;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -670,7 +671,7 @@ p {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #fff;
+  background-color: rgb(195, 0, 255);
   display: block;
   margin: 5px 0;
   position: relative;
@@ -709,7 +710,7 @@ p {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #000;
+    background-color: rgb(0, 0, 0);
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -724,7 +725,7 @@ p {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: rgb(0, 0, 0);
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -736,6 +737,12 @@ p {
 .navbar-nav .nav-item {
   margin-right: 45px;
   position: relative;
+}
+
+.services-area {
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  margin-top: 90px;
+  padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -757,7 +764,7 @@ p {
 }
 
 .navbar-nav .nav-item a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -774,7 +781,7 @@ p {
   .navbar-nav .nav-item a {
     display: block;
     padding: 4px 0;
-    color: #2E2E2E;
+    color: white;
   }
 }
 
@@ -782,7 +789,7 @@ p {
   .navbar-nav .nav-item a {
     display: block;
     padding: 4px 0;
-    color: #2E2E2E;
+    color: white;
   }
 }
 
@@ -851,7 +858,7 @@ p {
 .navbar-nav .nav-item .sub-menu li a {
   display: block;
   padding: 8px 20px;
-  color: #2E2E2E;
+  color: white;
 }
 
 .navbar-nav .nav-item .sub-menu li a.active,
@@ -949,11 +956,11 @@ p {
 }
 
 .sticky .navbar-toggler .toggler-icon {
-  background-color: #fff;
+  background-color: #2E2E2E;
 }
 
 .sticky .navbar-nav .nav-item a {
-  color: #fff;
+  color: #2E2E2E;
 }
 
 .sticky .navbar-nav .nav-item.active>a,
@@ -1006,7 +1013,7 @@ p {
 }
 
 .header-hero-content .header-title {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 700;
   color: #fff;
 }
@@ -1055,10 +1062,6 @@ p {
 /*===========================
       03.BRAND css 
 ===========================*/
-.brand-area-container {
-  padding: 0 0 20px 0;
-}
-
 @media (max-width: 767px) {
   .brand-logo {
     -ms-flex-wrap: wrap;
@@ -1111,16 +1114,6 @@ p {
 /*===========================
       04.SERVICES css 
 ===========================*/
-.services-area {
-  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));;
- padding-bottom: 100px;
-
-}
-
-.services-area-container {
-  padding: 0 0 10px 0;
-}
-
 .single-services {
 
   -webkit-box-shadow: 0px 5px 30px 0px rgba(167, 167, 167, 0.16);
@@ -1182,7 +1175,7 @@ p {
 .single-services .services-content .services-title a {
   font-size: 26px;
   font-weight: 700;
-  color: white;
+  color: #2E2E2E;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1237,7 +1230,7 @@ p {
 }
 
 .single-services:hover {
-  border-color: #FE7A7B;
+  border-color: #5302af;
 }
 
 .single-services:hover .services-icon .shape {
@@ -1254,6 +1247,10 @@ p {
 .about-area {
   position: relative;
   z-index: 5;
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+}
+#facts,#team,#testimonial,#blog{
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
 }
 
 .about-shape-1 {
@@ -1460,21 +1457,21 @@ p {
 }
 
 .counter-wrapper .single-counter.counter-color-1::before {
-  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
-  background: -o-linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
-  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-2::before {
-  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
-  background: -o-linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
-  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
 }
 
 .counter-wrapper .single-counter.counter-color-3::before {
-  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
-  background: -o-linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
-  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
 }
 
 .counter-wrapper .single-counter .count {
@@ -1556,7 +1553,9 @@ p {
   z-index: -1;
   top: 0;
   left: 0;
-  background: 0px 0px 25px 4px rgba(144, 42, 183, 1);
+  background: -webkit-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: -o-linear-gradient(#fe8464 0%, #fe6e9a 100%);
+  background: linear-gradient(#fe8464 0%, #fe6e9a 100%);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1723,8 +1722,11 @@ p {
 
 .single-blog .blog-content {
   padding-top: 25px;
+  padding-bottom: 35px;
 }
-
+#blog{
+  
+}
 .single-blog .blog-content .meta li {
   font-size: 16px;
   color: #6A6972;
@@ -1770,9 +1772,7 @@ p {
 ===========================*/
 .subscribe-area {
   padding: 40px 50px 90px;
-  -webkit-box-shadow: 0px 0px 18px 0px #fe6e9a14;
-  -moz-box-shadow: 0px 0px 18px 0px #fe6e9a14;
-  box-shadow: 0px 0px 18px 0px #fe6e9a14;
+  box-shadow: 0px 0px 25px 4px rgba(144, 42, 183, 1);
   border-radius: 10px;
   background-color: #fff;
 }
@@ -1786,11 +1786,13 @@ p {
 .subscribe-content .subscribe-title {
   font-size: 35px;
   font-weight: 700;
+  color: #2E2E2E;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .subscribe-content .subscribe-title {
     font-size: 30px;
+    color: #2E2E2E;
   }
 }
 
