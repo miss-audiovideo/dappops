@@ -632,7 +632,7 @@ p {
 .sticky {
   position: fixed;
   z-index: 99;
-  background-color: #fff;
+  background-color: #000;
   -webkit-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
@@ -709,7 +709,7 @@ p {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #000;
     z-index: 9;
     -webkit-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
@@ -949,11 +949,11 @@ p {
 }
 
 .sticky .navbar-toggler .toggler-icon {
-  background-color: #2E2E2E;
+  background-color: #fff;
 }
 
 .sticky .navbar-nav .nav-item a {
-  color: #2E2E2E;
+  color: #fff;
 }
 
 .sticky .navbar-nav .nav-item.active>a,
