@@ -126,7 +126,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  color: #6A6972;
+  color: #9a999e;
   margin: 0px;
 }
 
@@ -1175,7 +1175,7 @@ p {
 .single-services .services-content .services-title a {
   font-size: 26px;
   font-weight: 700;
-  color: #2E2E2E;
+  color: white;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1213,7 +1213,7 @@ p {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 400;
-  color: #2E2E2E;
+  color: #fe8464;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1579,9 +1579,9 @@ p {
 }
 
 .single-team .team-content .holder-name a {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
-  color: #2E2E2E;
+  color: rgb(248, 245, 245);
 }
 
 .single-team .team-content .text {
@@ -1597,15 +1597,14 @@ p {
      08.TESTIMONIAL css 
 ===========================*/
 .single-testimonial {
-  background-color: #fff;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
-  box-shadow: 0px 0px 30px 0px rgba(167, 167, 167, 0.16);
+  background-color: transparent;
+  -webkit-box-shadow: 0px 0px 18px 13px #6A3B93; 
+  box-shadow: 0px 0px 18px 13px #6A3B93;
   overflow: hidden;
   border-radius: 10px;
   padding: 25px 30px 5px;
   border-radius: 10px;
-  border: 2px solid transparent;
+ 
   margin: 30px 0;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1622,7 +1621,7 @@ p {
 
 .single-testimonial .testimonial-review .quota i {
   font-size: 36px;
-  color: #fe6e9a;
+  color: #b408f8;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1633,7 +1632,7 @@ p {
 .single-testimonial .testimonial-review .star ul li {
   display: inline-block;
   font-size: 16px;
-  color: #FE806D;
+  color: #a000d1;
 }
 
 .single-testimonial .testimonial-text {
@@ -1659,7 +1658,7 @@ p {
 .single-testimonial .testimonial-author .author-content .holder-name {
   font-size: 18px;
   font-weight: 700;
-  color: #2E2E2E;
+  color: rgb(224, 217, 217);
 }
 
 .single-testimonial .testimonial-author .author-content .text {
@@ -1667,11 +1666,11 @@ p {
 }
 
 .single-testimonial:hover {
-  border-color: #FE7A7B;
+  border-color: #a406ff;
 }
 
 .single-testimonial:hover .testimonial-review .quota i {
-  color: #FE7A7B;
+  color: #a406ff;
 }
 
 .slick-center .single-testimonial {
@@ -1746,7 +1745,7 @@ p {
   font-size: 23px;
   font-weight: 400;
   line-height: 30px;
-  color: #2E2E2E;
+  color: #dadada;
   margin-top: 15px;
 }
 
