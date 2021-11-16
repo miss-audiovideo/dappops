@@ -2064,6 +2064,7 @@ p {
   width: 80%;
   padding: 0;
   margin: 0 auto;
+  padding-top: 10%;
 }
 
 .centerplease {
@@ -2077,7 +2078,7 @@ p {
   position: relative;
   background: #f9f9f9;
   margin: 0;
-  padding: 10px 10px 10px 50px;
+  padding: 20px 40px 20px 50px;
   display: block;
   width:100%;
   cursor: pointer;
@@ -2108,7 +2109,8 @@ p {
 /*FAQ Toggle*/
 .plus {
   position: absolute;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-top: 14px;
   z-index: 5;
   font-size: 2em;
   line-height: 100%;
@@ -2134,7 +2136,7 @@ p {
 
 .questions {
   display: none;
-  
+  padding-left: 5px;
 }
 
 
