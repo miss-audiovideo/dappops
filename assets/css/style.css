@@ -1249,7 +1249,11 @@ p {
   z-index: 5;
   background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
 }
-#facts,#team,#testimonial,#blog{
+
+#facts,
+#team,
+#testimonial,
+#blog {
   background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
 }
 
@@ -1598,13 +1602,13 @@ p {
 ===========================*/
 .single-testimonial {
   background-color: transparent;
-  -webkit-box-shadow: 0px 0px 18px 13px #6A3B93; 
+  -webkit-box-shadow: 0px 0px 18px 13px #6A3B93;
   box-shadow: 0px 0px 18px 13px #6A3B93;
   overflow: hidden;
   border-radius: 10px;
   padding: 25px 30px 5px;
   border-radius: 10px;
- 
+
   margin: 30px 0;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -2059,7 +2063,7 @@ p {
 .back-to-top:hover {
   color: #fff;
 }
- 
+
 .content {
   width: 80%;
   padding: 0;
@@ -2076,18 +2080,22 @@ p {
 /*Question*/
 .question {
   position: relative;
-  background: #f9f9f9;
+  background: linear-gradient(90deg, rgba(67, 1, 193, 1), rgba(0, 0, 75, 1), rgba(0, 0, 50, 1), rgba(0, 0, 0, 1));
+  border-radius: 15px;
   margin: 0;
   padding: 20px 40px 20px 50px;
   display: block;
-  width:100%;
+  width: 100%;
   cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
 }
+
 /*Answer*/
 .answers {
   padding: 0px 15px;
   margin: 5px 0;
-  width:100%!important;
+  width: 100% !important;
   height: 0;
   overflow: hidden;
   z-index: -1;
@@ -2097,24 +2105,27 @@ p {
   -moz-transition: .3s ease;
   -o-transition: .3s ease;
   transition: .3s ease;
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.questions:checked ~ .answers{
+.questions:checked~.answers {
   height: auto;
   opacity: 1;
   padding: 15px;
-  
+
 }
 
 /*FAQ Toggle*/
 .plus {
   position: absolute;
   margin-left: 20px;
-  margin-top: 14px;
+  margin-top: 16px;
   z-index: 5;
   font-size: 2em;
   line-height: 100%;
-  -webkit-user-select: none;    
+  -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   -o-user-select: none;
@@ -2123,10 +2134,10 @@ p {
   -moz-transition: .3s ease;
   -o-transition: .3s ease;
   transition: .3s ease;
-
+color: #dadada;
 }
 
-.questions:checked ~ .plus {
+.questions:checked~.plus {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -2138,7 +2149,5 @@ p {
   display: none;
   padding-left: 5px;
   font-size: 34px;
+
 }
-
-
-
